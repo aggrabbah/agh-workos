@@ -1,0 +1,19 @@
+{
+	"name": "aggrabbah/agh-workos",
+	"type": "typo3-cms-extension",
+	"description": "This TYPO3 extensions allows you to handle fe_login through WorkOS",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"typo3/cms-core": "^13.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aggrabbah\\AghWorkOS\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "agh-workos"
+		}
+	}
+}
